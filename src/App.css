@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: max-content;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url(./Resources/desktop_banner.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.bannerWords{
+  position: absolute;
+}
+.tab-content {
+  height: auto;
+}
+
+#contents{
+  display: flex;
+  margin: 0;
+  margin-top: 1em;
+  justify-content: space-evenly;
+}
+#contents .card{
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+#desktopBanner {
+  max-height: 650px;
+}
+#mobileBanner{
+  max-height: 600px;
+}
+#accordionView, #mobileBanner{
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  #tabView, #desktopBanner {
+    display: none;
+  }
+  #accordionView, #mobileBanner {
+    display: initial;
+  }
+}

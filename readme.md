@@ -1,40 +1,28 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries. Bonus points if SASS/LESS is used and jQuery is not used.
+# Technical assessment for MindArc
 
-Exercise 1
----
-Build a responsive page based on the designs.
+## Introduction:
++ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
++ To run the project:
+>In the project directory,
+ > 1. run: [npm install] which will install all modules which are needed.
+ > 2. run [npm start] which will Run the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser if it did not show up.
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+## Style Library:
++ Bootstrap 4 is used to help make tab and accordion styles.
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
+## Category:
++ ./src:
+> Project is in this file.
++ ./src/Components:
+> App.js: Main template.
+> Tab.js: Tab component which will ride on App.
+> Accordion: Accordion component which will ride on App.
++ ./src/data:
+> data.json: Original file from the assessment.
++ ./src/Resources:
+> desktop_banner: Original image from the assessment.
+> mobile_banner: Original image from the assessment.
+> content_img: Original image from the assessment.
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
-
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
