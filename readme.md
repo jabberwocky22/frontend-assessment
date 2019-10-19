@@ -26,3 +26,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser if
 > mobile_banner: Original image from the assessment.
 > content_img: Original image from the assessment.
 
+## Answer to bonus question:
+> `('b' + 'a' + + 'a' + 'a').toLowerCase()`
+>+ = ('b' + 'a' + (+'a') + 'a').toLowerCase()
+>+ = ('ba' + (NaN) + 'a').toLowerCase(), --> +'a' = NaN(Not a Number), because "+" here represents "positive" and which expects a number after it.
+>+ = ('baNaNa').toLowerCase()
+>+ = banana;
